@@ -2,7 +2,7 @@
   "name": "html",
   "version": "0.0.1",
   "description": "HTML Components",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ./src --history-api-fallback"
   },
@@ -13,6 +13,7 @@
     "url": "https://github.com/JadeTechCreations/react-html.git"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "validator": "^7.0.0"
@@ -27,6 +28,7 @@
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack": "^2.4.1"
   }
 }
