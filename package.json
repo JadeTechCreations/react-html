@@ -1,12 +1,12 @@
 {
   "name": "html",
   "version": "0.0.1",
-  "description": "",
+  "description": "HTML Components",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ./src --history-api-fallback"
   },
-  "author": "",
+  "author": "Jerome Carey",
   "license": "ISC",
   "repository": {
     "type": "git",
